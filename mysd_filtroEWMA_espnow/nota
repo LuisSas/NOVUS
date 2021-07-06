@@ -1,0 +1,5 @@
+/* Programas utilizados para el proyecto guardando la información filtrada por EWMA del esclavo en una SD,  e incorporando la función de Maestro - Esclavo por ESP NOW
+//Versión 1
+
+/*El envio de la información por parte del esclavo es deficiente, al ser una gran cantidad de datos, los ESP 32 suben su temperatura
+y aumenta mucho el tiempo de envio de los datos del esclavo y guardador por parte del maestro.*/
