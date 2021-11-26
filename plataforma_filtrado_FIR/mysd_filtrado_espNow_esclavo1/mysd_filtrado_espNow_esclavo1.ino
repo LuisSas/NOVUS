@@ -1,3 +1,5 @@
+/* Programa de Esclavo de la plataforma incluyendo el filtrado FIR*/
+
 #include <esp_now.h> //libreria espNOW
 #include <WiFi.h>  //librería wifi
 #include <SPI.h>
