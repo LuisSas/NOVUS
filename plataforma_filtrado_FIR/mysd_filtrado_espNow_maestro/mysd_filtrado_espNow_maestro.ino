@@ -1,5 +1,5 @@
 /*
-  Programa ESPNOW two-way RECEPTOR con micro SD
+  Programa del Maestro de la plataforma para incluir el filtro FIR
 */
 
 #include <esp_now.h> //libreria espNOW
