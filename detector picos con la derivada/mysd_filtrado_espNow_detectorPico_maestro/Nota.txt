@@ -1,0 +1,8 @@
+El programa lee constantemente el puerto Serial en busca de un comando enviando por el usuario, 
+una vez teniendo un comando permitido, este manda al o los esclavos un comando para empezar la adquisición de datos, 
+solicitar los datos del esclavo y guardarlos en un archivo .csv y por último cerrar el archivo.
+
+Comandos enviados por serial
+"1"-> Iniciar la adquisición de datos
+"3"-> Solicitar datos del esclavo y guardarlos
+"2"-> Cerrar arhivo .csv

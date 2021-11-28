@@ -1,0 +1,19 @@
+Programa del esclavo
+Al recibir un comando, se inicia la lectura de datos, realizar el filtrado, derivarlo y la detección de picos
+Tiempo de muestreo 2.5ms
+
+Filtrado EWMA
+
+Filtrado FIR pasabandas: 
+frecuencia de muestreo: 400Hz
+Frecuencia de corte 1: 3Hz
+Frecuencia de corte 2: 9Hz
+orden del filtro: 60
+
+Descripción de la detección de picos:
+Se calcula constantemente un promedio de los últimos 500 datos de la derivada,
+se idendtifica si la señal está con una pendiente positiva o negativa 
+sil a señal presentaba una pendiente positiva, cambió a una negativa y el valor donde hubo el cambio es superior al promedio,
+se escribe un "1" como muestra del pico, una vez detectado un pico tendra que pasar una camtidad de muestras para poder permitir al sistema detectar otro pico
+
+

@@ -1,0 +1,5 @@
+Adquisición de datos de señal PPG por 5 minutos
+Frecuencia de muestreo: 400 Hz (2.5ms tiempo de entre cada muestra)
+Primer Columna: datos crudos de la señal leidos por el esp32 
+segunda columna: derivada de la señal 
+Tercer columna: detección de picos de la derivada (0->nada 1->pico)
